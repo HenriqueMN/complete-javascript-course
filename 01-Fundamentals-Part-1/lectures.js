@@ -51,3 +51,32 @@ console.log(typeof thisIsAnInteger); // * No longer an integer => Dynamic typing
 
 console.log(typeof null); // ! The operator typeof returns "object" when used with null. It's regarded as a mistake, because null isn't an object, but it was never fixed for legacy reasons
  */
+
+/* Lecture 03 - declaring variables: let, const and var
+ * let and const were introduced in ES6
+ * let: declare variables that can have its value mutated or be declared without a value
+ * const: declare variables that cannot be changed at any point
+ + Clean code: const by default and let only when 100% the variable will change eventually, because it's a good practice to avoid variable mutations as much as possible to avoid bugs
+ * var: it works similarly to let
+ ! var should be avoided
+ ! Declaring a variable without one of the keywords will result in the variable being created on the global object
+
+
+let age;
+age = 31;
+console.log(age);
+
+age = 32;
+console.log(age);
+
+const birthYear; // ! Missing initializer in const declaration
+const birthYear = 1999;
+console.log(birthYear);
+
+birthYear = 2000; // ! Assignment to constant variable
+console.log(birthYear);
+
+var month;
+month = "November";
+console.log(month);
+ */

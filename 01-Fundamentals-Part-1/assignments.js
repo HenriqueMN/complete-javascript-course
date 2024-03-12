@@ -3,8 +3,10 @@
  2. Log their values to the console 
 */
 
-let country = "Brazil";
-let continent = "South America";
+//let country = "Brazil"; // * Changed for assignment 03
+const country = "Brazil";
+//let continent = "South America"; // * Changed for assignment 03
+const continent = "South America";
 let populationInMillions = "214.3";
 
 //console.log(country, "-", continent, populationInMillions);
@@ -14,9 +16,19 @@ let populationInMillions = "214.3";
  2.Log the types of isIsland, population, country and language to the console.
  */
 
-let isIsland = false;
+//let isIsland = false; // * Changed for assignment 03
+const isIsland = false;
 let language;
 
-console.log(
+/* console.log(
     `Country: ${typeof country} \nContinent: ${typeof continent} \nPopulation: ${typeof populationInMillions} \nIs island: ${typeof isIsland} \nLanguage: ${typeof language}`
-);
+); */
+
+/* Assignment 03 - assign language and change let to const
+ 1. Set the value of language to the language spoken where you live (some countries have multiple languages, but just choose one).
+ 2. Think about which variables should be const variables (which values will never change, and which might change?). Then, change these variables to const.
+ 3. Try to change one of the changed variables now, and observe what happens.
+*/
+
+language = "Brazilian Portuguese";
+// continent = "America";

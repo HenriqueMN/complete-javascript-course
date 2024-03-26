@@ -7,7 +7,7 @@
 const country = "Brazil";
 //let continent = "South America"; // * Changed for assignment 03
 const continent = "South America";
-let populationInMillions = "214.3";
+let populationInMillions = 214.3;
 
 //console.log(country, "-", continent, populationInMillions);
 
@@ -32,3 +32,27 @@ let language;
 
 language = "Brazilian Portuguese";
 // continent = "America";
+
+/* Assignment 04 - basic operations and concatenate strings
+ 1. If your country split in half, and each half would contain half the population, then how many people would live in each half?
+ 2. Increase the population of your country by 1 and log the result to the console.
+ 3. Finland has a population of 6 million. Does your country have more people than Finland?
+ 4. The average population of a country is 33 million people. Does you country have less people than the average country?
+ 5. Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.
+*/
+
+console.log(populationInMillions / 2);
+//populationInMillions++
+//console.log(populationInMillions);
+console.log(populationInMillions > 6);
+console.log(populationInMillions > 33);
+console.log(
+    country +
+        " is in " +
+        continent +
+        ", and its " +
+        populationInMillions +
+        " million people speak " +
+        language +
+        "."
+);

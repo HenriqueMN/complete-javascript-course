@@ -80,3 +80,30 @@ var month;
 month = "November";
 console.log(month);
  */
+
+/* Lecture 04 - Basic Operators
+ * Arithmetic operators: 
+ * * (+): sum
+ + + + We can use the + operator to concatenate strings as well
+ * * (-): subtract 
+ * * (*): multiply 
+ * * (/): divide 
+ * * (**): exponentiate
+ * Assignment operators: 
+ * * (=): assigns the value after the equal to a variable 
+ * * (+=): sums the variable with the value after the equal 
+ * * (*=): multiplies the variable with the value after the equal 
+ * * (/=): divides the variable for the value after the equal 
+ * * (++): adds +1 to the variable
+ ! ! ! Doesn't work directly in the console, you have to do it first, then log in the console
+ * * (--): subtracts 1 from the variable
+ * Comparison operators
+ * * (>): greater than 
+ * * (<): lesser than 
+ * * (>=): greater or equal than 
+ * * (<=): lesser or equal than 
+ * * (==): equal value 
+ * * (===): equal value and equal type
+ * * (!=): different value
+ * * (!==): different value or different type
+ */

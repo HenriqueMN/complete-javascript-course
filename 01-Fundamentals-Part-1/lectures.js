@@ -1,4 +1,4 @@
-/* Lecture 01 - variable names, let and console.log
+/* Lecture 01 - Variable names, let and console.log
  * To declare a variable in JavaScript we use the keyword "let"
  * The usual convention for variable names is camelCase (first letter lowercase and all the subsequent uppercase)
  ! Variable names CANNOT start with number
@@ -14,7 +14,7 @@ let firstName = "Henrique";
 console.log(firstName); // + The function console.log() is used to write something in the console. It can receive more than one value at a time (e.g., console.log(firstName, middleName, lastName)), concatenate strings (e.g., console.log("1", "+", "2")) and receive template literals (e.g, console.log(`My first name is ${firstName}.`))
  */
 
-/* Lecture 02 - variable types, JavaScript typing and typeof
+/* Lecture 02 - Variable types, JavaScript typing and typeof
  * In JavaScript, every value is either an object or a primitive value
  * Primitive types: number, string, boolean, undefined, null, symbol and big int
  * * Number => Floating point numbers
@@ -52,7 +52,7 @@ console.log(typeof thisIsAnInteger); // * No longer an integer => Dynamic typing
 console.log(typeof null); // ! The operator typeof returns "object" when used with null. It's regarded as a mistake, because null isn't an object, but it was never fixed for legacy reasons
  */
 
-/* Lecture 03 - declaring variables: let, const and var
+/* Lecture 03 - Declaring variables: let, const and var
  * let and const were introduced in ES6
  * let: declare variables that can have its value mutated or be declared without a value
  * const: declare variables that cannot be changed at any point
@@ -81,7 +81,7 @@ month = "November";
 console.log(month);
  */
 
-/* Lecture 04 - Basic Operators
+/* Lecture 04 - Basic operators
  * Arithmetic operators: 
  * * (+): sum
  + + + We can use the + operator to concatenate strings as well
@@ -106,4 +106,8 @@ console.log(month);
  * * (===): equal value and equal type
  * * (!=): different value
  * * (!==): different value or different type
+ */
+
+/* Lecture 05 - Operator precedence
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
  */
